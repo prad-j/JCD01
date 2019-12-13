@@ -15,6 +15,9 @@ public class Calcu001 {
 		System.out.println("Division of "+x+" by "+y+" is "+z+".");
 		
 		r=x%y;
+		
+		if(r>0){
 		System.out.println("And the remainder of the division is "+r+".");
+		}
 	}
 }
